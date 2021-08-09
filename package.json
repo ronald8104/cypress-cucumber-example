@@ -1,0 +1,20 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "description": "This is an example integating cypres with cucumber BDD feature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Ronald Ugas",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
