@@ -1,0 +1,100 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Clear all completed todos",
+    "line": 1,
+    "id": "clear-all-completed-todos",
+    "tags": [],
+    "uri": "clear-all-completed-todos.feature",
+    "elements": [
+      {
+        "id": "clear-all-completed-todos;clear-all-completed-todos",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Clear all completed todos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["A test todo", "true"]
+                  },
+                  {
+                    "cells": ["A second test todo", "false"]
+                  },
+                  {
+                    "cells": ["A third test todo", "true"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I have the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 10424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I clear all completed todos",
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["A second test todo", "false"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I see the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I see that I have \"1 item left\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

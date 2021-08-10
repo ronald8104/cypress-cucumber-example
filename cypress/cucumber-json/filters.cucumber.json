@@ -1,0 +1,280 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Filters",
+    "line": 1,
+    "id": "filters",
+    "tags": [],
+    "uri": "filters.feature",
+    "elements": [
+      {
+        "id": "filters;see-only-not-yet-completed-todos",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "See only not yet completed todos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["A test todo", "false"]
+                  },
+                  {
+                    "cells": ["Another test todo", "true"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I have the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 12833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I filter by \"active\"",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["A test todo", "false"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see that I have \"1 item left\"",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "filters;see-only-completed-todos",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "See only completed todos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["A test todo", "false"]
+                  },
+                  {
+                    "cells": ["Another test todo", "true"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I have the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 966000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I filter by \"completed\"",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["Another test todo", "true"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I see the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I see that I have \"1 item left\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "filters;see-all-todos",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "See all todos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["A test todo", "false"]
+                  },
+                  {
+                    "cells": ["Another test todo", "true"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I have the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I filter by \"completed\"",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I filter by \"all\"",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["title", "completed"]
+                  },
+                  {
+                    "cells": ["A test todo", "false"]
+                  },
+                  {
+                    "cells": ["Another test todo", "true"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I see the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I see that I have \"1 item left\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
