@@ -1,3 +1,3 @@
 When("I toggle all todos", () => {
-  cy.get(".toggle-all").click();
+  cy.get("#toggle-all").click({ force: true });
 });
