@@ -1,4 +1,10 @@
 {
   "baseUrl": "https://todomvc.com/examples/react/#/",
-  "testFiles": "**/*.{feature,features}"
+  "testFiles": "**/*.{feature,features}",
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 30000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 70000,
+  "requestTimeout": 30000,
+  "responseTimeout": 30000
 }
