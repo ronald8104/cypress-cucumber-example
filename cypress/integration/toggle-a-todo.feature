@@ -1,4 +1,5 @@
 Feature: Toggle a todo
+
   @only @tag-to-include
   Scenario: Complete a todo
     Given I have the following todos:
