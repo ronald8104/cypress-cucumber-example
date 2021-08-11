@@ -51,7 +51,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 1526000000
+              "duration": 1389000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 288000000
+              "duration": 394000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "I clear all completed todos",
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 165000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 30000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 39000000
             }
           }
         ]

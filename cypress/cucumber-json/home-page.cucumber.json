@@ -22,7 +22,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 1671000000
+              "duration": 1665000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I see the home page",
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 64000000
             }
           }
         ]
@@ -75,7 +75,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 556000000
+              "duration": 637000000
             }
           },
           {
@@ -85,7 +85,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 310000000
+              "duration": 296000000
             }
           },
           {
@@ -118,7 +118,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 33000000
             }
           },
           {
@@ -128,7 +128,7 @@
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 11000000
             }
           }
         ]
