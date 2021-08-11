@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:report": "node ./cypress/report.js"
+    "cy:report": "node ./cypress/report.js",
+    "cy:example": "./node_modules/.bin/cypress-tags run -e TAGS='@tag-to-include or @another-tag and not @github-tag"
   },
   "keywords": [],
   "author": "Ronald Ugas",

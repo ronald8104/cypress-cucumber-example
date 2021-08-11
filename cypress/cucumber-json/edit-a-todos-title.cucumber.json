@@ -39,7 +39,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 1587000000
+              "duration": 1363000000
             }
           },
           {
@@ -49,7 +49,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 299000000
             }
           },
           {
@@ -59,7 +59,7 @@
             "name": "I choose to edit \"A test todo\"",
             "result": {
               "status": "passed",
-              "duration": 278000000
+              "duration": 188000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "I submit \"A new title\" for my edit todo title",
             "result": {
               "status": "passed",
-              "duration": 344000000
+              "duration": 316000000
             }
           },
           {
@@ -96,7 +96,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 60000000
             }
           }
         ]

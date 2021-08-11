@@ -39,7 +39,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 1275000000
+              "duration": 1115000000
             }
           },
           {
@@ -49,7 +49,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 326000000
+              "duration": 271000000
             }
           },
           {
@@ -59,7 +59,7 @@
             "name": "I remove \"A test todo\"",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 100000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "I see that I have no existing todos",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 40000000
             }
           }
         ]
@@ -112,7 +112,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 589000000
+              "duration": 588000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 270000000
+              "duration": 283000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I remove \"A test todo\"",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 89000000
             }
           },
           {
@@ -159,7 +159,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 34000000
             }
           }
         ]

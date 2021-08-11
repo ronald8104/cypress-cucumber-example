@@ -45,7 +45,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 1446000000
+              "duration": 1301000000
             }
           },
           {
@@ -55,7 +55,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 385000000
+              "duration": 284000000
             }
           },
           {
@@ -65,7 +65,7 @@
             "name": "I filter by \"active\"",
             "result": {
               "status": "passed",
-              "duration": 181000000
+              "duration": 126000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 42000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 11000000
             }
           }
         ]
@@ -145,7 +145,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 583000000
+              "duration": 667000000
             }
           },
           {
@@ -155,7 +155,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 320000000
+              "duration": 237000000
             }
           },
           {
@@ -165,7 +165,7 @@
             "name": "I filter by \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 111000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 53000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 22000000
             }
           }
         ]
@@ -245,7 +245,7 @@
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 521000000
+              "duration": 613000000
             }
           },
           {
@@ -255,7 +255,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 232000000
+              "duration": 218000000
             }
           },
           {
@@ -265,7 +265,7 @@
             "name": "I filter by \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 133000000
             }
           },
           {
@@ -275,7 +275,7 @@
             "name": "I filter by \"all\"",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 126000000
             }
           },
           {
@@ -318,7 +318,7 @@
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 15000000
             }
           }
         ]

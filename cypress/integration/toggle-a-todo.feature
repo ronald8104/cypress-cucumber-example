@@ -1,4 +1,5 @@
 Feature: Toggle a todo
+  @only @tag-to-include
   Scenario: Complete a todo
     Given I have the following todos:
       | title       | completed |
@@ -10,6 +11,7 @@ Feature: Toggle a todo
       | A test todo | true      |
     And I see that I have "0 items left"
 
+  @another-tag
   Scenario: Un-complete a todo
     Given I have the following todos:
       | title       | completed |
@@ -36,6 +38,7 @@ Feature: Toggle a todo
       | A third test todo  | true      |
     And I see that I have "0 items left"
 
+  @not-tag
   Scenario: Un-complete all todos
     Given I have the following todos:
       | title              | completed |

@@ -22,7 +22,7 @@
             "name": "I have no todos",
             "result": {
               "status": "passed",
-              "duration": 2470000000
+              "duration": 2102000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 65000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I submit \"First example todo\" for my new todo title",
             "result": {
               "status": "passed",
-              "duration": 570000000
+              "duration": 485000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 36000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 53000000
+              "duration": 92000000
             }
           }
         ]
@@ -99,7 +99,7 @@
             "name": "I have no todos",
             "result": {
               "status": "passed",
-              "duration": 730000000
+              "duration": 578000000
             }
           },
           {
@@ -109,7 +109,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 288000000
+              "duration": 236000000
             }
           },
           {
@@ -119,7 +119,7 @@
             "name": "I submit \"Second example todo\" for my new todo title",
             "result": {
               "status": "passed",
-              "duration": 414000000
+              "duration": 351000000
             }
           },
           {
@@ -146,7 +146,7 @@
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 35000000
             }
           },
           {
@@ -156,7 +156,7 @@
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 17000000
             }
           }
         ]

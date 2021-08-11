@@ -10,9 +10,18 @@
       {
         "id": "toggle-a-todo;complete-a-todo",
         "keyword": "Scenario",
-        "line": 2,
+        "line": 3,
         "name": "Complete a todo",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@only",
+            "line": 2
+          },
+          {
+            "name": "@tag-to-include",
+            "line": 2
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -35,31 +44,31 @@
               }
             ],
             "keyword": "Given ",
-            "line": 3,
+            "line": 4,
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 1364000000
+              "duration": 9913000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 7,
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 247000000
+              "duration": 62000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
+            "line": 8,
             "name": "I complete \"A test todo\"",
             "result": {
               "status": "passed",
-              "duration": 145000000
+              "duration": 236000000
             }
           },
           {
@@ -82,21 +91,21 @@
               }
             ],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 33000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 11,
+            "line": 12,
             "name": "I see that I have \"0 items left\"",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 39000000
             }
           }
         ]
@@ -104,9 +113,14 @@
       {
         "id": "toggle-a-todo;un-complete-a-todo",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 15,
         "name": "Un-complete a todo",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@another-tag",
+            "line": 14
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -129,31 +143,31 @@
               }
             ],
             "keyword": "Given ",
-            "line": 14,
+            "line": 16,
             "name": "I have the following todos:",
             "result": {
               "status": "passed",
-              "duration": 553000000
+              "duration": 877000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 17,
+            "line": 19,
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 257000000
+              "duration": 261000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 18,
+            "line": 20,
             "name": "I un-complete \"A test todo\"",
             "result": {
               "status": "passed",
-              "duration": 163000000
+              "duration": 159000000
             }
           },
           {
@@ -176,7 +190,7 @@
               }
             ],
             "keyword": "Then ",
-            "line": 19,
+            "line": 21,
             "name": "I see the following todos:",
             "result": {
               "status": "passed",
@@ -186,11 +200,11 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 22,
+            "line": 24,
             "name": "I see that I have \"1 item left\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 13000000
             }
           }
         ]
@@ -198,7 +212,7 @@
       {
         "id": "toggle-a-todo;complete-all-todos",
         "keyword": "Scenario",
-        "line": 24,
+        "line": 26,
         "name": "Complete all todos",
         "tags": [],
         "type": "scenario",
@@ -235,31 +249,28 @@
               }
             ],
             "keyword": "Given ",
-            "line": 25,
+            "line": 27,
             "name": "I have the following todos:",
             "result": {
-              "status": "passed",
-              "duration": 481000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 30,
+            "line": 32,
             "name": "I navigate to the home page",
             "result": {
-              "status": "passed",
-              "duration": 255000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 31,
+            "line": 33,
             "name": "I toggle all todos",
             "result": {
-              "status": "passed",
-              "duration": 70000000
+              "status": "skipped"
             }
           },
           {
@@ -294,21 +305,19 @@
               }
             ],
             "keyword": "Then ",
-            "line": 32,
+            "line": 34,
             "name": "I see the following todos:",
             "result": {
-              "status": "passed",
-              "duration": 81000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 37,
+            "line": 39,
             "name": "I see that I have \"0 items left\"",
             "result": {
-              "status": "passed",
-              "duration": 10000000
+              "status": "skipped"
             }
           }
         ]
@@ -316,9 +325,14 @@
       {
         "id": "toggle-a-todo;un-complete-all-todos",
         "keyword": "Scenario",
-        "line": 39,
+        "line": 42,
         "name": "Un-complete all todos",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@not-tag",
+            "line": 41
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -353,31 +367,28 @@
               }
             ],
             "keyword": "Given ",
-            "line": 40,
+            "line": 43,
             "name": "I have the following todos:",
             "result": {
-              "status": "passed",
-              "duration": 547000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 45,
+            "line": 48,
             "name": "I navigate to the home page",
             "result": {
-              "status": "passed",
-              "duration": 243000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 46,
+            "line": 49,
             "name": "I toggle all todos",
             "result": {
-              "status": "passed",
-              "duration": 71000000
+              "status": "skipped"
             }
           },
           {
@@ -412,21 +423,19 @@
               }
             ],
             "keyword": "Then ",
-            "line": 47,
+            "line": 50,
             "name": "I see the following todos:",
             "result": {
-              "status": "passed",
-              "duration": 75000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 52,
+            "line": 55,
             "name": "I see that I have \"3 items left\"",
             "result": {
-              "status": "passed",
-              "duration": 8000000
+              "status": "skipped"
             }
           }
         ]
