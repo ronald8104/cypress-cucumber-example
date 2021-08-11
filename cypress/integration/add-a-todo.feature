@@ -6,7 +6,7 @@ Feature: Add a todo
         Then I see the following todos:
             | title   | completed |
             | <title> | false     |
-        And I see that I have "1 item left"
+        And I see that I have "0 item left"
         Examples:
             | title               |
             | First example todo  |
