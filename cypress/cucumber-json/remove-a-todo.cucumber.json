@@ -1,0 +1,169 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Remove a todo",
+    "line": 1,
+    "id": "remove-a-todo",
+    "tags": [],
+    "uri": "remove-a-todo.feature",
+    "elements": [
+      {
+        "id": "remove-a-todo;remove-my-only-todo",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Remove my only todo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "completed"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "A test todo",
+                      "false"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I have the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 1674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I remove \"A test todo\"",
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see that I have no existing todos",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "remove-a-todo;remove-a-todo",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Remove a todo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "completed"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "A test todo",
+                      "false"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "A different test todo",
+                      "false"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I have the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I remove \"A test todo\"",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "completed"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "A different test todo",
+                      "false"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I see the following todos:",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
